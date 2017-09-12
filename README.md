@@ -1,0 +1,4 @@
+# EditTextWithScrollViewDemo
+真正完美解决EditText嵌套ScrollView的滑动冲突
+当edittext是多行需要上下滑动的时候，将滑动事件交给edittetx，并且 edittext滑动到底部或者顶部的时候，将事件还给 scrollview，
+以此实现滑动联动。所以我简单的对网上的方案修改了一下，最终代码如下，大家可以直接拿去用，将自己项目种的edittext替换掉就行了
